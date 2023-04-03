@@ -1,0 +1,18 @@
+.Display {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.word {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: rgb(1, 84, 161);
+}
+.word1 {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    color: rgb(10, 0, 77);
+}

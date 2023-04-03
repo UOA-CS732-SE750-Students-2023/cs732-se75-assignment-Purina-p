@@ -1,0 +1,47 @@
+.container_Top {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2em;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+}
+
+.backgroud{
+  width: 1200px;
+  height:auto;
+  left: 0px;
+  position: relative;
+  top: 0;
+}
+
+.clouds {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.moutains{
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+
+}
+.welcome{
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(21, 125, 133);
+  justify-items: center;
+}
