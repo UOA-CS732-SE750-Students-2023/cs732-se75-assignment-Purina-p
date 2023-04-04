@@ -1,0 +1,35 @@
+{
+  "hash": "0840e603",
+  "browserHash": "eedc933b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8d417e1f",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "696cd124",
+      "needsInterop": true
+    },
+    "react-scroll-parallax": {
+      "src": "../../node_modules/react-scroll-parallax/dist/react-scroll-parallax.esm.js",
+      "file": "react-scroll-parallax.js",
+      "fileHash": "8aebfb8a",
+      "needsInterop": false
+    },
+    "atropos/react": {
+      "src": "../../node_modules/atropos/react/atropos-react.esm.js",
+      "file": "atropos_react.js",
+      "fileHash": "e9155b53",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QSQYAWSL": {
+      "file": "chunk-QSQYAWSL.js"
+    }
+  }
+}

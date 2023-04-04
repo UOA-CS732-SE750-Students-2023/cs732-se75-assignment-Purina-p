@@ -1,37 +1,66 @@
-import Atropos from 'atropos/react';
+import { Parallax } from 'react-scroll-parallax';
 import styles from './card.module.css'
+
 
 function Card() {
     return (
         <div className={styles.card}>
-            <div className={styles.alone}>
-                <Atropos>
-                    <img src="image/yulong.png" data-atropos-offset="-5" />
-                    {/* <img src="image-middle.png" data-atropos-offset="0" />
-                    <img src="image-front.png" data-atropos-offset="5" /> */}
-                </Atropos>
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','145px']} translateY={['0px','10px']}>
+                    <img src="image/sky1.jpg" />
+                </Parallax>
             </div>
-            <div className={styles.alone}>
-                <Atropos>
-                    <img src="image/new.png" data-atropos-offset="-5" />
-                </Atropos>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','0px']} translateY={['0px','10px']}> 
+                    <img src="image/sky2.jpg" />
+                </Parallax>
             </div>
-            <div className={styles.alone}>
-                <Atropos>
-                    <img src="image/city.jpg" data-atropos-offset="-5" />
-                </Atropos>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','-145px']} translateY={['0px','10px']}>
+                    <img src="image/sky3.jpg" />
+                </Parallax>
             </div>
-            <div className={styles.alone}>
-                <Atropos>
-                    <img src="image/snow.jpg" data-atropos-offset="-5" />
-                </Atropos>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','210px']}>
+                    <img src="image/m1.jpg" />
+                </Parallax>
             </div>
-            <div className={styles.alone}>
-                <Atropos>
-                    <img src="image/yulong.png" data-atropos-offset="-5" />
-                </Atropos>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','0px']} translateY={['0px','0px']}>
+                    <img src="image/m2.jpg" />
+                </Parallax>
+            </div>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','-210px']}>
+                    <img src="image/m3.jpg" />
+                </Parallax>
+            </div>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','390px']} translateY={['0px','-15px']}>
+                    <img src="image/b1.jpg" />
+                </Parallax>
+            </div>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','0px']} translateY={['0px','-15px']}>
+                    <img src="image/b2.jpg" />
+                </Parallax>
+            </div>
+
+            <div className={styles.card1}>
+                <Parallax translateX={['0px','-400px']} translateY={['0px','-15px']}>
+                    <img src="image/b3.jpg" />
+                </Parallax>
             </div>
         </div>
+
+        
 
     )
 }

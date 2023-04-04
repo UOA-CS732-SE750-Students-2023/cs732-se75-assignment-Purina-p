@@ -1,11 +1,21 @@
-.list {
-    font-size: small;
-    color: rgb(0, 68, 73);
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.fly{
+.fly {
     font-size: medium;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.word {
+    font-size: 2rem;
+    color: rgb(0, 2, 118);
+}
+
+.bg{
+    margin-top: 300px;
+    position: absolute;
+    width: 800px;
+    height: 600px;
 }

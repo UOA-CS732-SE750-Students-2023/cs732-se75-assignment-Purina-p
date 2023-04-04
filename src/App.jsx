@@ -38,15 +38,15 @@ function App() {
           </ParallaxProvider>
         </div>
 
-        <div className={styles.card}>{/*图片还没有调到适当大小，转弯排列*/}
-          <Card />
+        <div>
+          <h1>hello world</h1>
+        </div>
+        <div>
+          <h1>hello world</h1>
         </div>
 
-        <div>
-          <h1>hello world</h1>
-        </div>
-        <div>
-          <h1>hello world</h1>
+        <div className={styles.card}>{/*图片还没有调到适当大小，转弯排列*/}
+          <Card />
         </div>
       </div>
     </ParallaxProvider>
