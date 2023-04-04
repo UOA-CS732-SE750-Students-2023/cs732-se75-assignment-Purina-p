@@ -1,11 +1,11 @@
 .list {
     font-size: small;
-    color: rgb(64, 112, 224);
+    color: rgb(0, 68, 73);
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.p {
-    width: calc(33.33% - 10px);
-    margin-bottom: 10px;
+.fly{
+    font-size: medium;
+    color: black;
 }

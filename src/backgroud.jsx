@@ -1,5 +1,6 @@
 import React from 'react';
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
+import styles from './backgroud.module.css';
 
 function Backgroud() {
     return (
@@ -12,7 +13,7 @@ function Backgroud() {
                 className="aspect-[2/1]"
             >
                 <div className="absolute inset-0 flex items-center justify-center">
-                    <h1 className="text-8xl text-white font-thin">Hello World!</h1>
+                    <h1 className={styles.title}>PARALLAX</h1>
                 </div>
             </ParallaxBanner>
         </ParallaxProvider>
