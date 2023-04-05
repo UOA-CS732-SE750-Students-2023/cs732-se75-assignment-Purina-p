@@ -1,20 +1,5 @@
-.card {
-    display: flex;
-    margin: 50px;
-    border: 5px;
-    flex-wrap: wrap;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
-
 * {
     box-sizing: border-box;
-}
-
-.card1 {
-    padding: 50px;
 }
 
 .myAtropos {

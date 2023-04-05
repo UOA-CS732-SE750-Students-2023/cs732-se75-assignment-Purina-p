@@ -1,11 +1,15 @@
 .container_Top {
   display: block;
   text-align: center;
-  line-height: 1.5;
+  width: 100%;
   font-size: 2em;
   font-weight: bold;
   align-items: center;
   position: relative;
+}
+
+.container {
+  width: 100%;
 }
 
 .backgroud {
@@ -53,6 +57,5 @@
 
 .card {
   margin-top: 100px;
-  align-items: center;
   background-color: #98defa;
 }

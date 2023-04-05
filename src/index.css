@@ -14,10 +14,23 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#root {
+  width: 100%;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
+  width: 100%;
   min-width: 320px;
   min-height: 100vh;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
 }

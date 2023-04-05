@@ -7,6 +7,7 @@ import Flylist from './flylist';
 import Card from './card';
 import Welcome from './welcome';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Atro from './atropos';
 
 function App() {
   return (
@@ -38,11 +39,12 @@ function App() {
           </ParallaxProvider>
         </div>
 
-        <div>
-          <h1>hello world</h1>
+        <div className={styles.atropos}>
+          <Atro/>
         </div>
+
         <div>
-          <h1>hello world</h1>
+        <h1>hello world</h1>
         </div>
 
         <div className={styles.card}>{/*图片还没有调到适当大小，转弯排列*/}

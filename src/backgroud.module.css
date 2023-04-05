@@ -1,5 +1,8 @@
 .title{
-    text: 8px;
-    color: aliceblue;
+    color: rgb(90, 155, 211);
     font: thin;
+}
+
+.h {
+    height: 800px;
 }
