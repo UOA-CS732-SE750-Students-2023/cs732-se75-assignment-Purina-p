@@ -9,13 +9,13 @@ function Backgroud() {
             <ParallaxBanner
                 layers={[
                     {
-                        image: 'https://repo.bfw.wiki/bfwrepo/images/moutain/bg.jpg', speed: -20, 
+                        image: 'https://repo.bfw.wiki/bfwrepo/images/moutain/bg.jpg', speed: -50, 
                         translateY: [0, 10],
                         opacity: [0.5, 1],        
                     },
 
                     {
-                        translateY: [0, 130], scale: [0.5,1.2, 'easeOutCubic'], children: (
+                        translateY: [0, 150], scale: [0.5,1.5, 'easeOutCubic'], speed: -20, children: (
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <h1 className={styles.title}>PARALLAX</h1>
                             </div>

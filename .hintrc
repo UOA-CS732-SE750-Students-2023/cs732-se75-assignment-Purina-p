@@ -11,6 +11,7 @@
           "font-synthesis"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off"
   }
 }

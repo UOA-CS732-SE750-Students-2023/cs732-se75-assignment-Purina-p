@@ -17,14 +17,22 @@ function Flylist() {
     return (
         <div className={styles.fly}>
             <div className={styles.word}>
-                <p ref={parallax_1.ref}>Componets</p>
-                <p ref={parallax_2.ref}>Scroll Effects! Advanced Banners!</p>
-                <p ref={parallax_3.ref}>Easing Animation! Aptros</p>
+                <div ref={parallax_1.ref}>Componets</div>
+                <div ref={parallax_2.ref} className={styles.com1}>
+                    <a href="https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects">
+                        <span>Scroll Effects! Advanced Banners!</span>
+                    </a></div>
+                <div ref={parallax_3.ref} className={styles.com2}>
+                <a href="https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects">
+                        <span>Easing Animation! Aptros!</span>
+                    </a></div>
             </div>
             <div className={styles.bg}>
-                <Parallax translateX={['0px','100px']} translateY={['0px','50px']}>
-                    <img src="image/bg.svg" />
-                </Parallax>
+                <div className={styles.front}>
+                    <Parallax translateX={['0px', '100px']} translateY={['0px', '50px']}>
+                        <img src="image/bg.svg" />
+                    </Parallax>
+                </div>
             </div>
 
         </div>

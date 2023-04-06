@@ -1,3 +1,8 @@
+.atro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 * {
     box-sizing: border-box;
 }
@@ -26,7 +31,6 @@
     display: flex;
     width: 120%;
     height: 120%;
-    background-image: url(https://atroposjs.com/images/demos/justice-league.jpg);
     background-size: 280% 333%;
     position: absolute;
     left: -10%;

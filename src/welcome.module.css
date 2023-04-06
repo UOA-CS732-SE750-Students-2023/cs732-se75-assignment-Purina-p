@@ -6,15 +6,18 @@
     margin-left: 5px;
     justify-content: center;
     width: 100vw;
-    border-bottom: 5px solid rgb(0, 2, 118);
+    border-top: 10px solid #517195;
+    border-bottom: 10px solid #517195;
     width: 30%;
     margin: auto;
     text-align: center;
     padding-bottom: 5px;
+    z-index: 1;
 }
 
 .word {
     font-size: 6rem;
     letter-spacing: 1rem;
-    color: rgb(10, 0, 77);
+    color: #213750;
+    z-index: 100;
 }

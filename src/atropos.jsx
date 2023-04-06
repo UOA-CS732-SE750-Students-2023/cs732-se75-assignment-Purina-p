@@ -3,15 +3,28 @@ import styles from './atropos.module.css'
 
 function Atro() {
     return (
-        <div className={styles.atro}> 
+        <div className={styles.atro}>
+            <h1>Atropos</h1>
             <div style={{ width: '100%' }}>
-                <div className={styles.myAtropos}>
+                <div className={styles.myAtropos + ' atropos-multiple'}>
+                    {/* atropos-multiple把这9个元素绑在一个特定的的类的元素上 */}
                     {
-                        [1, 2, 3, 4, 5, 6, 7, 8, 9].map(val => {
+                        [
+                            'image/sky1.jpg',
+                            'image/sky2.jpg',
+                            'image/sky3.jpg',
+                            'image/m1.jpg',
+                            'image/m2.jpg',
+                            'image/m3.jpg',
+                            'image/b1.jpg',
+                            'image/b2.jpg',
+                            'image/b3.jpg'
+
+                        ].map(val => {
 
                             return <Atropos
                                 key={val}
-                                className={styles.atropos + ' atropos-multiple'}//atropos-multiple把九张图片绑定的类
+                                className={styles.atropos}
                                 alwaysActive
                                 commonOrigin={true}
                                 rotateTouch="scroll-y"
@@ -24,7 +37,8 @@ function Atro() {
                                 duration={400}
                                 eventsEl=".atropos-multiple"
                             >
-                                <div data-atropos-offset="10" className={styles.multipleBg}></div>
+                                <div data-atropos-offset="10" className={styles.multipleBg}
+                                    style={{ backgroundImage: `url(${val})` }}></div>
                             </Atropos>
                         })
                     }

@@ -1,6 +1,8 @@
 import { Parallax, useParallax, ParallaxProvider } from 'react-scroll-parallax';
 import React from 'react';
 import styles from './display.module.css'
+import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+
 
 function Display() {
   const parallax = useParallax({
@@ -8,15 +10,11 @@ function Display() {
   });
 
   return (
-      <div ref={parallax.ref} className={styles.home}>
-      {
-          'PARALLAX'.split('').map((letter, i) => {
-            return <Parallax key={i}>
-              <div className={styles.word}>{letter}</div>
-            </Parallax>
-          })
-        }
-      </div>
+    <div ref={parallax.ref} className={styles.home}>
+      <Parallax >
+        <div className={styles.word}>PARALLAX</div>
+      </Parallax>
+    </div>
   );
 };
 

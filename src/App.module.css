@@ -1,15 +1,22 @@
 .container_Top {
   display: block;
   text-align: center;
-  width: 100%;
+  line-height: 1.5;
   font-size: 2em;
   font-weight: bold;
   align-items: center;
   position: relative;
 }
 
-.container {
-  width: 100%;
+.middle{
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2em;
+  font-weight: bold;
+  align-items: center;
+  position: relative;
+
 }
 
 .backgroud {
@@ -41,14 +48,27 @@
 
 
 .welcome {
+  position: relative;
   align-items: center;
   padding: 50px;
   margin-top: 50px;
+  z-index: 100;
 }
 
 .paxallax {
   align-items: center;
   margin-left: 10px;
+  z-index: 2;
+}
+
+.side{
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+
 }
 
 .list {
@@ -58,4 +78,12 @@
 .card {
   margin-top: 100px;
   background-color: #98defa;
+}
+
+.atropos{
+  margin-top: 150px;
+}
+
+.Decorate{
+  margin-top: 100px;
 }
