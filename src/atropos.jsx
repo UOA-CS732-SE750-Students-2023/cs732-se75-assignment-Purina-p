@@ -4,7 +4,6 @@ import styles from './atropos.module.css'
 function Atro() {
     return (
         <div className={styles.atro}>
-            <h1>Atropos</h1>
             <div style={{ width: '100%' }}>
                 <div className={styles.myAtropos + ' atropos-multiple'}>
                     {/* atropos-multiple把这9个元素绑在一个特定的的类的元素上 */}

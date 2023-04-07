@@ -9,9 +9,9 @@ function Backgroud() {
             <ParallaxBanner
                 layers={[
                     {
-                        image: 'https://repo.bfw.wiki/bfwrepo/images/moutain/bg.jpg', speed: -50, 
+                        image: 'https://repo.bfw.wiki/bfwrepo/images/moutain/bg.jpg', speed: -30, 
                         translateY: [0, 10],
-                        opacity: [0.5, 1],        
+                        opacity: [0.1, 1],        
                     },
 
                     {

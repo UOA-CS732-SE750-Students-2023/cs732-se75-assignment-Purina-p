@@ -62,6 +62,7 @@
 }
 
 .side{
+  margin-top: -50px;
   position: absolute;
   top: 0;
   left: 0px;
@@ -75,15 +76,43 @@
   margin-top: 100px;
 }
 
-.card {
-  margin-top: 100px;
-  background-color: #98defa;
+.title{
+  margin-top: 200px;
 }
 
 .atropos{
-  margin-top: 150px;
+  margin-top: 50px;
+  background-color: #7490b0;
 }
 
-.Decorate{
-  margin-top: 100px;
+.summary{
+    margin-top: 100px;
+}
+
+.end{
+  position: relative;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: #c1d9f7;
+  position: absolute;
+}
+
+.description{
+  position: absolute;
+  z-index: 3;
+
+}
+
+.atropos p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.thank{
+  position: absolute;
+  z-index: 3;
 }

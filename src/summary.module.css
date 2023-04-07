@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    font-size: 48px;
+    padding: 5px;
+    margin-left: 5px;
+    justify-content: center;
+    width: 100vw;
+    border-top: 10px solid #517195;
+    border-bottom: 10px solid #517195;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.word {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #213750;
+    z-index: 100;
+}

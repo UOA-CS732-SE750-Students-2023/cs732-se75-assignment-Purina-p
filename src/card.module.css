@@ -17,33 +17,7 @@
     padding: 50px;
 }
 
-.myAtropos {
-    width: 792px;
-    height: 522px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    perspective: 1200px;
-  }
-
-  .myAtropos .atropos {
-    width: 240px;
-    height: 150px;
-    margin: 12px;
-    perspective: none;
-    transform-style: preserve-3d;
-  }
-
-  .multipleBg {
-    display: flex;
-    width: 120%;
-    height: 120%;
-    background-image: url(https://atroposjs.com/images/demos/justice-league.jpg);
-    background-size: 280% 333%;
+.des{
     position: absolute;
-    left: -10%;
-    top: -10%;
-  }
+}
+
