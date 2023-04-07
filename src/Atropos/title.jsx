@@ -8,7 +8,7 @@ function Title() {
       <div className={styles.home}>
         {
           'ATROPOS'.split('').map((letter, i) => {
-            return <Parallax key={i} translateX={["0px", 25*(i-4)+"px"]}>
+            return <Parallax key={i} translateX={["0px", 25*(i-3)+"px"]}>
               <div className={styles.word}>{letter}</div>
             </Parallax>
           })

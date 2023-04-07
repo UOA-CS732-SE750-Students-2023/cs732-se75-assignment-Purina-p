@@ -1,6 +1,6 @@
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import React from 'react';
-import styles from './title.module.css'
+import styles from './summary.module.css'
 
 function Summary() {
   return (

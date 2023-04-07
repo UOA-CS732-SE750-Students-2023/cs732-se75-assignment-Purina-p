@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './App.module.css'
-import Cloud from './cloud';
-import Backgroud from './backgroud';
-import Display from './display';
-import Flylist from './flylist';
-import Card from './card';
-import Welcome from './welcome';
+import Cloud from './Banner/cloud';
+import Backgroud from './Banner/backgroud';
+import Display from './Intro/display';
+import Flylist from './Intro/flylist';
+import Card from './Summary/card';
+import Welcome from './Intro/welcome';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import Atro from './atropos';
-import Side from './side';
-import Title from './title';
-import Summary from './summary';
-import Description from './description_par';
-import Thank from './thank';
+import Atro from './Atropos/atropos';
+import Side from './Intro/side';
+import Title from './Atropos/title';
+import Summary from './Summary/summary';
+import Description from './Summary/description_par';
+import Thank from './Summary/thank';
 
 function App() {
   return (

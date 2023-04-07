@@ -6,7 +6,7 @@ function Thank() {
 
   return (
     <div className={styles.home}>
-      <Parallax  translateX={[-50,50]} translateY={[450,451]} opacity={[0,1]}>
+      <Parallax  translateX={[0,50]} translateY={[450,451]} opacity={[0,1]}>
         <div className={styles.word}>Thank for watching!</div>
       </Parallax>
     </div>

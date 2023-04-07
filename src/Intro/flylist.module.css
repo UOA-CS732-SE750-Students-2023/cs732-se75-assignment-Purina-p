@@ -1,6 +1,6 @@
 .fly {
     font-size: medium;
-    color: black;
+    color: #213750;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,16 +20,14 @@ a {
     position: relative;
 }
 
+a:link {
+    color: #213750;
+  }
+  
+
 a:visited {
     color:  #b7c9de;
   }
-
-a:hover .com1 {
-    background-color: rgb(63, 63, 156);
-    color:rgb(71, 99, 141);
-    font-weight: bold;
-  }
-
 
 .com1 {
     position: relative;

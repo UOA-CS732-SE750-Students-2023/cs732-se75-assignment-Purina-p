@@ -23,7 +23,7 @@ function Flylist() {
                         <span>Scroll Effects! Advanced Banners!</span>
                     </a></div>
                 <div ref={parallax_3.ref} className={styles.com2}>
-                <a href="https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects">
+                <a href="https://atroposjs.com/">
                         <span>Easing Animation! Aptros!</span>
                     </a></div>
             </div>

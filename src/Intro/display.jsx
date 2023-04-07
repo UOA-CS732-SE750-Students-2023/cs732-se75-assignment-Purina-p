@@ -1,8 +1,6 @@
 import { Parallax, useParallax, ParallaxProvider } from 'react-scroll-parallax';
 import React from 'react';
 import styles from './display.module.css'
-import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
-
 
 function Display() {
   const parallax = useParallax({
