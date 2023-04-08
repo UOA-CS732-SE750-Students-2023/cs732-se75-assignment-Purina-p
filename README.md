@@ -7,7 +7,7 @@
 
 `npm install react-scroll-parallax`  
 2.Remember 
-`import { ParallaxProvider } from 'react-scroll-parallax'`  
+`import { ParallaxProvider/Parallax/ParallaxBanner/useParallax } from 'react-scroll-parallax'`  
 -when we need to use {useParallax or Parallax}, we need to make sure ParallaxProvider is outside  
 </h3>
 
