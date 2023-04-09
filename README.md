@@ -1,4 +1,5 @@
 # 732-Tech_Demo Topic: Scrolling / parallax animation libraries
+**before start project make sure you have already install libraries(npm install react-scroll-parallax,npm i atropos)**
 
 # React Scroll Parallax:  
 ## Usage:
