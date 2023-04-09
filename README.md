@@ -1,4 +1,4 @@
-# 732-Tech_Demo_test Topic: Scrolling / parallax animation libraries
+# 732-Tech_Demo Topic: Scrolling / parallax animation libraries
 
 # React Scroll Parallax:  
 ## Usage:
