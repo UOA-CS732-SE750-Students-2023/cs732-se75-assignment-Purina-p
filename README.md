@@ -5,7 +5,8 @@
   2.npm insatll  
   3.npm insatll react-scroll-parallax   
   4.npm i atropos   
-  5.npm run dev</h3>  
+  5.npm run dev(npm start can't be used)
+</h3>  
   
 **before start project make sure you have already install libraries(npm install react-scroll-parallax,npm i atropos)**
 
