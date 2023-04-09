@@ -10,8 +10,8 @@
   
 **before start project make sure you have already install libraries(npm install react-scroll-parallax,npm i atropos)**
 
-**EXPLAIN**
 
+<h2>EXPLAIN</h2>
 # React Scroll Parallax:  
 ## Usage:
 <h3>
