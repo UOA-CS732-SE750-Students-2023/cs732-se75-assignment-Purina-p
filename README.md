@@ -3,7 +3,7 @@
 <h3>1.clone repository  
   
   2.npm install  
-  3.npm insatll react-scroll-parallax   
+  3.npm install react-scroll-parallax   
   4.npm i atropos   
   5.npm run dev(npm start can't be used)
 </h3>  
