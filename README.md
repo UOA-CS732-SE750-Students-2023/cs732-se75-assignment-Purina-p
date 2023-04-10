@@ -1,4 +1,17 @@
-# 732-Tech_Demo_test Topic: Scrolling / parallax animation libraries
+# 732-Tech_Demo Topic: Scrolling / parallax animation libraries
+## Run my project
+<h3>1.clone repository  
+  
+  2.npm install  
+  3.npm install react-scroll-parallax   
+  4.npm i atropos   
+  5.npm run dev(npm start can't be used)
+</h3>  
+  
+**before start project make sure you have already install libraries(npm install react-scroll-parallax,npm i atropos)**
+
+
+<h2>EXPLAIN</h2>
 
 # React Scroll Parallax:  
 ## Usage:
@@ -7,7 +20,7 @@
 
 `npm install react-scroll-parallax`  
 2.Remember 
-`import { ParallaxProvider } from 'react-scroll-parallax'`  
+`import { ParallaxProvider/Parallax/ParallaxBanner/useParallax } from 'react-scroll-parallax'`  
 -when we need to use {useParallax or Parallax}, we need to make sure ParallaxProvider is outside  
 </h3>
 
